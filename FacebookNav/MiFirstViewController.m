@@ -47,6 +47,7 @@
 }
 
 
+
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
     UITouch *touch = [self.allTouches objectAtIndex:0];
     CGPoint pointOfTouch = [touch locationInView:self.view];
